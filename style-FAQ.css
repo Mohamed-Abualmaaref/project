@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Century Gothic;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: poppins;
+	}
+	
+	.form{
+		background: url("../images/FAQ3.jpg");
+		height:100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left;
+		
+	}
+	
+	
+	.html{
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		scroll-behavior: smooth;
+	}
+	header{
+		width: 100%;
+		height: 80px;
+		background: #0cb8b6;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 5 0px;
+		padding-top: 2px;
+	}
+
+	header .logo a{
+		padding: 63px;
+		font-size: 30px;
+		font-weight: bold;
+		color: black;
+	}
+	
+	.nav-bar ul{
+		padding: 15px;
+		display: flex;
+	}
+	.nav-bar ul li a {
+		display: block;
+		color: black;
+		font-size: 20px;
+		padding: 10px 20px;
+		border-radius: 50px;
+		transition: .2s;
+	}
+	.nav-bar ul li a:hover{
+		color: black;
+		background: #eee;
+	}
+	.nav-bar ul li a.active{
+		background-color: #eee;
+	}
+	.login{
+		padding-left: 5px;
+	}
+	.nav-bar ul li a.navlogin{
+		color: #eee;
+		background-color: #11101b;
+		transition: .6s;
+	}
+	
+
+
+
+
+
+.header1{
+	padding: 20px;
+	text-align: center;
+  }
+  .questions{
+	  font-size: 120%;
+	  width:1170px;
+	  text-align: left;
+	  margin: auto;
+  }
